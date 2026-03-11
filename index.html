@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QR Code Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card" id="card">
+      <div class="card-face front">
+        <div class="profile">
+          <h2>Lương Quốc Bảo</h2>
+          <p>Lập trình viên Font-End-InternShip</p>
+          <button class="flip-btn">QR Code</button>
+        </div>
+      </div>
+      <div class="card-face back">
+        <div class="qr-container">
+          <div class="qr-code" id="qrCode"></div>
+          <p>Quét để kết nối</p>
+          <button class="flip-btn">Trở về mặt trước</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
