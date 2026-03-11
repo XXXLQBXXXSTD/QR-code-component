@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#667eea">
+  <title>QR Code Card - Mobile</title>
+  <link rel="stylesheet" href="styleM.css">
+</head>
+<body>
+  <div class="mobile-container">
+    <div class="card" id="card">
+      <div class="card-face front">
+        <div class="profile">
+          <div class="avatar">JD</div>
+          <h2>Lương Quốc Bảo</h2>
+          <p>Lập trình viên Font-End-InternShip</p>
+          <button class="flip-btn">
+            <span>QR Code</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="card-face back">
+        <div class="qr-container">
+          <h3>Quét để kết nối</h3>
+          <div class="qr-code" id="qrCode"></div>
+          <p class="qr-link">github.com/XXXLQBXXXSTD</p>
+          <button class="flip-btn back-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+            <span>Trở về mặt trước</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scriptM.js"></script>
+</body>
+</html>
